@@ -3,7 +3,6 @@ import { computed, ref } from 'vue'
 
 const asset = (path) => `${import.meta.env.BASE_URL}${path}`
 const paperPdf = asset('process-tensor-tomography-sgd.pdf')
-const supplementPdf = asset('process-tensor-tomography-sgd-supplement.pdf')
 const personalSite = 'https://vasiseve.github.io/'
 const codeRepo = 'https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability'
 
@@ -148,7 +147,6 @@ const faqs = [
         <p class="authors">Vasileios Sevetlidis and George Pavlidis</p>
         <div class="actions" aria-label="Primary links">
           <a class="button primary" :href="paperPdf" target="_blank" rel="noreferrer">Read the PDF</a>
-          <a class="button" :href="supplementPdf" target="_blank" rel="noreferrer">Supplement</a>
           <a class="button" :href="codeRepo" target="_blank" rel="noreferrer">Code</a>
           <a class="button" :href="personalSite" target="_blank" rel="noreferrer">Author site</a>
         </div>
@@ -346,7 +344,6 @@ const faqs = [
           <a :href="personalSite" target="_blank" rel="noreferrer">Vasileios Sevetlidis</a>
           <a :href="codeRepo" target="_blank" rel="noreferrer">Reproducibility code</a>
           <a :href="paperPdf" target="_blank" rel="noreferrer">Paper PDF</a>
-          <a :href="supplementPdf" target="_blank" rel="noreferrer">Supplement</a>
         </p>
       </section>
 
@@ -354,12 +351,11 @@ const faqs = [
         <div>
           <h2>Full PDF</h2>
           <p>
-            The manuscript and supplement are bundled with this project page so
+            The manuscript is bundled with this project page so
             the exposition and source paper stay together.
           </p>
           <div class="actions left">
             <a class="button primary" :href="paperPdf" target="_blank" rel="noreferrer">Open paper</a>
-            <a class="button" :href="supplementPdf" target="_blank" rel="noreferrer">Open supplement</a>
           </div>
         </div>
         <iframe :src="paperPdf" title="Process-Tensor Tomography of SGD PDF"></iframe>

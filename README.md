@@ -14,7 +14,7 @@ Author site: <https://vasiseve.github.io/>
 This repository hosts a Vue/GitHub Pages companion site for the AISTATS paper.
 The page explains the two-step intervention protocol, back-flow of
 distinguishability, the causal-break mechanism test, theory, experiments,
-selected figures, and the bundled paper/supplement PDFs.
+selected figures, and the bundled paper PDF.
 
 ## Local Development
 
