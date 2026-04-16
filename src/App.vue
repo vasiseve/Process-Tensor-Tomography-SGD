@@ -5,7 +5,7 @@ const asset = (path) => `${import.meta.env.BASE_URL}${path}`
 const paperPdf = asset('process-tensor-tomography-sgd.pdf')
 const supplementPdf = asset('process-tensor-tomography-sgd-supplement.pdf')
 const personalSite = 'https://vasiseve.github.io/'
-const futureCodeRepo = 'https://github.com/vasiseve/process-tensor-tomography-sgd-code'
+const codeRepo = 'https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability'
 
 const activeResult = ref('prevalence')
 
@@ -343,7 +343,7 @@ const faqs = [
         </p>
         <p class="link-row">
           <a :href="personalSite" target="_blank" rel="noreferrer">Vasileios Sevetlidis</a>
-          <a :href="futureCodeRepo" target="_blank" rel="noreferrer">Future code repository</a>
+          <a :href="codeRepo" target="_blank" rel="noreferrer">Reproducibility code</a>
           <a :href="paperPdf" target="_blank" rel="noreferrer">Paper PDF</a>
           <a :href="supplementPdf" target="_blank" rel="noreferrer">Supplement</a>
         </p>

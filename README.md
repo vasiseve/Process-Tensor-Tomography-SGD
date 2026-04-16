@@ -5,7 +5,8 @@ Project page for the paper:
 **Process-Tensor Tomography of SGD: Measuring non-Markovian memory via back-flow of distinguishability**  
 Vasileios Sevetlidis and George Pavlidis
 
-Planned site: <https://vasiseve.github.io/Process-Tensor-Tomography-SGD/>  
+Project site: <https://vasiseve.github.io/Process-Tensor-Tomography-SGD/>  
+Code: <https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability>  
 Author site: <https://vasiseve.github.io/>
 
 ## About
@@ -38,13 +39,11 @@ Settings -> Pages -> Build and deployment -> Source: GitHub Actions
 
 The workflow builds the Vue app and deploys the generated `dist/` directory.
 
-## Future Code Repository
+## Code Repository
 
-For the corresponding reproducibility code, use a separate repository:
+The corresponding reproducibility code is maintained separately at:
 
-```text
-process-tensor-tomography-sgd-code
-```
+<https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability>
 
-That keeps the website lightweight while giving the code release space for
+That keeps this website lightweight while giving the code release space for
 training scripts, configs, experiment outputs, and plotting utilities.
