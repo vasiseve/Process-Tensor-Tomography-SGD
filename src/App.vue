@@ -149,6 +149,7 @@ const faqs = [
         <div class="actions" aria-label="Primary links">
           <a class="button primary" :href="paperPdf" target="_blank" rel="noreferrer">Read the PDF</a>
           <a class="button" :href="supplementPdf" target="_blank" rel="noreferrer">Supplement</a>
+          <a class="button" :href="codeRepo" target="_blank" rel="noreferrer">Code</a>
           <a class="button" :href="personalSite" target="_blank" rel="noreferrer">Author site</a>
         </div>
       </header>
